@@ -1,0 +1,24 @@
+Database Design 
+
+	Surya_Movies
+	
+		MID     NOT NULL NUMBER       
+		MNAME            VARCHAR2(50) 
+		MCID             NUMBER       
+		LID              NUMBER       
+		RDATE            DATE         
+		MACTOR           VARCHAR2(20) 
+		FACTOR           VARCHAR2(20) 
+		MRATING          NUMBER(2,1)  
+		MTB              NUMBER(9,2) 	
+		
+	Movie_Category
+	
+		MCID  NOT NULL NUMBER       
+		CNAME          VARCHAR2(10) 
+		
+	Movie_Language
+	
+		LID   NOT NULL NUMBER       
+		LNAME          VARCHAR2(10) 
+		
